@@ -19,16 +19,17 @@ const CardPinjaman = (props) => {
             <View style={[s.flx_row, s.aic, s.jcc, { height: ms(40) }]}>
                 <View style={{ width: ms(6), height: ms(6), borderRadius: ms(3), marginRight: ms(8), backgroundColor: '#21d4fd' }}/>
                 <UniText.Semibold size={ms(13)} color="#21d4fd">
-                    PINJAMAN
+                    SILARURRAHIM
                 </UniText.Semibold>
                 <View style={{ width: ms(6), height: ms(6), borderRadius: ms(3), marginLeft: ms(8), backgroundColor: '#21d4fd' }}/>
             </View>
             <View style={[s.flx_i, s.aic, s.jcc, { marginBottom: ms(12) }]}>
                 <Text style={{ backgroundColor: 'transparent' }}>
-                    <UniText.Regular color="#fff">Rp</UniText.Regular>
-                    <UniText.Bold size={ms(24)} color="#fff">
-                        100.000.000.000
+                    {/* <UniText.Regular color="#fff">- </UniText.Regular> */}
+                    <UniText.Bold size={ms(24)} color="#fff" style={{ paddingHorizontal: ms(50) }}>
+                        Halo Dolor... Yoopo Kabare?
                     </UniText.Bold>
+                    {/* <UniText.Regular color="#fff"> -</UniText.Regular> */}
                 </Text>
             </View>
             <View style={{ paddingHorizontal: ms(20), paddingVertical: ms(12),

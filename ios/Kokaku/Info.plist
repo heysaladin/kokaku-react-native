@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>KlikLPD_Admin</string>
+	<string>Kokaku</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -36,13 +36,13 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>ProximaNova-Semibold.ttf</string>
 		<string>ProximaNova-Regular.ttf</string>
 		<string>ProximaNova-Light.ttf</string>
-		<string>CircularStd-Medium.ttf</string>
+		<string>CircularStd-Medium.otf</string>
 		<string>CircularStd-Book.ttf</string>
 		<string>CircularStd-Bold.ttf</string>
 		<string>AvenirNextLTPro-Demi.ttf</string>

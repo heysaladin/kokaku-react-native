@@ -147,7 +147,7 @@ class Pinjaman extends Component {
             this.props.navigator.handleDeepLink({ link: 'Pemberitahuan' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Pemberitahuan',
+                screen: 'kokaku.Pemberitahuan',
             });
         }
 
@@ -157,7 +157,7 @@ class Pinjaman extends Component {
             this.props.navigator.handleDeepLink({ link: 'AddPinjaman' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.AddPinjaman',
+                screen: 'kokaku.AddPinjaman',
             });
         }
     }

@@ -14,8 +14,9 @@ const Header = (props) => {
                 <Animatable.View animation="fadeInRight" style={[s.flx_i, s.aic, s.jcfs, s.flx_row, { display: 'flex' }] }>
                     <TouchableOpacity activeOpacity={0.8}
                         onPress={props.handleDrawer}
+                        style={{ backgroundColor: 'transparent' }}
                     >
-                    <IonIcon name="md-menu" color="#fff" size={ms(28)} style={{ marginRight: ms(5) }} />
+                    <IonIcon name="md-menu" color="#fff" size={ms(28)} style={{ marginRight: ms(10) }} />
                     </TouchableOpacity>
                     <UniText.Bold color="#fff" size={ms(20)}>
                         Kokaku

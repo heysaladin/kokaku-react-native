@@ -52,7 +52,7 @@ class Walkthrough extends Component {
     }
     _handleSkip() {
         this.props.navigator.resetTo({
-            screen: 'kliklpd.SignUp',
+            screen: 'kokaku.SignUp',
         });
     }
     _onSelectedIndexChange() {

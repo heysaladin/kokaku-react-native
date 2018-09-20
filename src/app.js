@@ -27,10 +27,10 @@ export default class App {
     }
     runApp() {
         Navigation.startSingleScreenApp({
-            screen: { screen: 'kliklpd.Home' },
+            screen: { screen: 'kokaku.Home' },
             drawer: {
                 left: {
-                    screen: 'kliklpd.Drawer',
+                    screen: 'kokaku.Drawer',
                     // fixedWidth: ms(280),
                 },
                 style: {

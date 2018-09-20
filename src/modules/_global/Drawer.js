@@ -60,7 +60,7 @@ class Drawer extends Component {
                 this.props.navigator.handleDeepLink({ link: 'Home' });
             } else {
                 this.props.navigator.resetTo({
-                    screen: 'kliklpd.Home',
+                    screen: 'kokaku.Home',
                 });
             }
         }
@@ -74,7 +74,7 @@ class Drawer extends Component {
                 this.props.navigator.handleDeepLink({ link: 'Simpanan' });
             } else {
                 this.props.navigator.resetTo({
-                    screen: 'kliklpd.Simpanan',
+                    screen: 'kokaku.Simpanan',
                 });
             }
         }
@@ -88,7 +88,7 @@ class Drawer extends Component {
                 this.props.navigator.handleDeepLink({ link: 'Pinjaman' });
             } else {
                 this.props.navigator.resetTo({
-                    screen: 'kliklpd.Pinjaman',
+                    screen: 'kokaku.Pinjaman',
                 });
             }
         }
@@ -102,7 +102,7 @@ class Drawer extends Component {
                 this.props.navigator.handleDeepLink({ link: 'Nasabah' });
             } else {
                 this.props.navigator.resetTo({
-                    screen: 'kliklpd.Nasabah',
+                    screen: 'kokaku.Nasabah',
                 });
             }
         }
@@ -116,7 +116,7 @@ class Drawer extends Component {
                 this.props.navigator.handleDeepLink({ link: 'Riwayat' });
             } else {
                 this.props.navigator.resetTo({
-                    screen: 'kliklpd.Riwayat',
+                    screen: 'kokaku.Riwayat',
                 });
             }
         }
@@ -130,7 +130,7 @@ class Drawer extends Component {
                 this.props.navigator.handleDeepLink({ link: 'Profile' });
             } else {
                 this.props.navigator.resetTo({
-                    screen: 'kliklpd.Profile',
+                    screen: 'kokaku.Profile',
                 });
             }
         }
@@ -144,7 +144,7 @@ class Drawer extends Component {
                 this.props.navigator.handleDeepLink({ link: 'Pengaturan' });
             } else {
                 this.props.navigator.resetTo({
-                    screen: 'kliklpd.Pengaturan',
+                    screen: 'kokaku.Pengaturan',
                 });
             }
         }
@@ -186,7 +186,7 @@ class Drawer extends Component {
                 <View style={[s.flx_i, s.jcfe, { paddingBottom: ms(20) }]}>
                     <DrawerMenu action={this._gotoRiwayat}
                         isSelected={_.isEqual(this.state.selectedMenu, 'riwayat')}
-                        text="Riwayat LPD Nama Desa"
+                        text="Riwayat Kokaku Nama Desa"
                     />
                     <DrawerMenu action={this._gotoProfile}
                         isSelected={_.isEqual(this.state.selectedMenu, 'profile')}

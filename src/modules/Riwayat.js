@@ -145,7 +145,7 @@ class Riwayat extends Component {
             this.props.navigator.handleDeepLink({ link: 'Pemberitahuan' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Pemberitahuan',
+                screen: 'kokaku.Pemberitahuan',
             });
         }
 
@@ -395,7 +395,7 @@ class Riwayat extends Component {
                         <View style={[s.flx_row, { height: ms(45), marginTop: ms(0), padding: ms(10) }]}>
                             <View style={[s.flx_i, s.jcc]}>
                                 <UniText.Semibold color="#777" size={ms(12)} style={{ width: '40%' }} >
-                                    Saldo LPD Nama Desa
+                                    Saldo Kokaku Nama Desa
                                 </UniText.Semibold>
                             </View>
                             <View style={[s.flx_i, s.jcc, { alignItems: 'flex-end' }]}>

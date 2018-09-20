@@ -37,7 +37,7 @@ class Login extends Component {
     }
     _login() {
         this.props.navigator.resetTo({
-            screen: 'kliklpd.Home',
+            screen: 'kokaku.Home',
         });
     }
     render() {
@@ -129,7 +129,7 @@ class Login extends Component {
                 {/*
                 <View style={[s.absolute, s.bottom_0, s.aic, s.jcc, { width, height: ms(80) }]}>
                     <UniText.Semibold color="#fff" size={ms(16)}>
-                        Klik LPD Warga ver-1.0
+                        Kokaku ver-1.0
                     </UniText.Semibold>
                 </View>
                 */}

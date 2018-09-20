@@ -148,7 +148,7 @@ class Simpanan extends Component {
             this.props.navigator.handleDeepLink({ link: 'Pemberitahuan' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Pemberitahuan',
+                screen: 'kokaku.Pemberitahuan',
             });
         }
 
@@ -158,7 +158,7 @@ class Simpanan extends Component {
             this.props.navigator.handleDeepLink({ link: 'AddSimpanan' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.AddSimpanan',
+                screen: 'kokaku.AddSimpanan',
             });
         }
     }

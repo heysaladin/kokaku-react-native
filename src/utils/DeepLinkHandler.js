@@ -3,61 +3,61 @@ export default (event, navigator) => {
         switch (event.link) {
             case 'Home':
                 navigator.resetTo({
-                    screen: 'kliklpd.Home',
+                    screen: 'kokaku.Home',
                 });
                 break;
 
             case 'Simpanan':
                 navigator.resetTo({
-                    screen: 'kliklpd.Simpanan',
+                    screen: 'kokaku.Simpanan',
                 });
                 break;
 
             case 'AddSimpanan':
                 navigator.resetTo({
-                    screen: 'kliklpd.AddSimpanan',
+                    screen: 'kokaku.AddSimpanan',
                 });
                 break;
 
             case 'Pinjaman':
                 navigator.resetTo({
-                    screen: 'kliklpd.Pinjaman',
+                    screen: 'kokaku.Pinjaman',
                 });
                 break;
 
             case 'AddPinjaman':
                 navigator.resetTo({
-                    screen: 'kliklpd.AddPinjaman',
+                    screen: 'kokaku.AddPinjaman',
                 });
                 break;
 
             case 'Pemberitahuan':
                 navigator.resetTo({
-                    screen: 'kliklpd.Pemberitahuan',
+                    screen: 'kokaku.Pemberitahuan',
                 });
                 break;
 
             case 'Riwayat':
                 navigator.resetTo({
-                    screen: 'kliklpd.Riwayat',
+                    screen: 'kokaku.Riwayat',
                 });
                 break;
 
             case 'Profile':
                 navigator.resetTo({
-                    screen: 'kliklpd.Profile',
+                    screen: 'kokaku.Profile',
                 });
                 break;
 
             case 'Pengaturan':
                 navigator.push({
-                    screen: 'kliklpd.Pengaturan',
+                    screen: 'kokaku.Pengaturan',
                 });
                 break;
 
             case 'Nasabah':
                 navigator.push({
-                    screen: 'kliklpd.Nasabah',
+                    screen: 'kokaku.Nasabah',
                 });
                 break;
             

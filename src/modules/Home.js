@@ -47,7 +47,7 @@ class Home extends Component {
 
             simpanan: [
                 {
-                    id: 2,
+                    id: 1,
                     date: '2018-03-12',
                     amount: 15000000,
                     type: 'deposit',
@@ -57,16 +57,16 @@ class Home extends Component {
                 },
                 {
 
-                    id: 1,
+                    id: 2,
                     date: '2018-03-11',
                     amount: 5000000,
                     type: 'withdraw',
                     collector: '',
                     status: 'pending',
-                    image: 'http://www.nusapenidamedia.com/wp-content/uploads/2017/11/dosen.jpg',
+                    image: 'https://c2.staticflickr.com/4/3334/3420941025_7aeb3d0260_b.jpg',
                 },
                 {
-                    id: 2,
+                    id: 3,
                     date: '2018-03-12',
                     amount: 15000000,
                     type: 'deposit',
@@ -76,7 +76,7 @@ class Home extends Component {
                 },
                 {
 
-                    id: 1,
+                    id: 4,
                     date: '2018-03-11',
                     amount: 5000000,
                     type: 'withdraw',
@@ -86,7 +86,7 @@ class Home extends Component {
                 },
                 {
 
-                    id: 1,
+                    id: 5,
                     date: '2018-03-11',
                     amount: 5000000,
                     type: 'withdraw',
@@ -95,7 +95,7 @@ class Home extends Component {
                     image: 'https://cdn-image.hipwee.com/wp-content/uploads/2016/04/hipwee-kayak_orang_bali_by_harimau_apa_kucing-d344flt-750x500.jpg',
                 },
                 {
-                    id: 2,
+                    id: 6,
                     date: '2018-03-12',
                     amount: 15000000,
                     type: 'deposit',
@@ -105,16 +105,16 @@ class Home extends Component {
                 },
                 {
 
-                    id: 1,
+                    id: 7,
                     date: '2018-03-11',
                     amount: 5000000,
                     type: 'withdraw',
                     collector: '',
                     status: 'pending',
-                    image: 'http://www.nusapenidamedia.com/wp-content/uploads/2017/11/dosen.jpg',
+                    image: 'https://c2.staticflickr.com/4/3334/3420941025_7aeb3d0260_b.jpg',
                 },
                 {
-                    id: 2,
+                    id: 8,
                     date: '2018-03-12',
                     amount: 15000000,
                     type: 'deposit',
@@ -124,7 +124,7 @@ class Home extends Component {
                 },
                 {
 
-                    id: 1,
+                    id: 9,
                     date: '2018-03-11',
                     amount: 5000000,
                     type: 'withdraw',
@@ -134,7 +134,7 @@ class Home extends Component {
                 },
                 {
 
-                    id: 1,
+                    id: 10,
                     date: '2018-03-11',
                     amount: 5000000,
                     type: 'withdraw',
@@ -150,17 +150,17 @@ class Home extends Component {
                 {
                     id: 1,
                     date: '2018-03-12',
-                    title: 'LPD Melayani dengan Sepenuh Hati',
+                    title: 'Kokaku Melayani dengan Sepenuh Hati',
                     description: 'Wayan Gobler',
-                    category: 'Cerita LPD',
-                    image: 'http://2.bp.blogspot.com/-LVs-BiuJUic/Vkj5-s2H6II/AAAAAAAAC2Q/w6xC48Mp-JI/s1600/Pelayanan%2Bnasabah%2BLPD.jpg',
+                    category: 'Cerita Kokaku',
+                    image: 'http://2.bp.blogspot.com/-LVs-BiuJUic/Vkj5-s2H6II/AAAAAAAAC2Q/w6xC48Mp-JI/s1600/Pelayanan%2Bnasabah%2BKokaku.jpg',
                 },
                 {
                     id: 2,
                     date: '2018-03-12',
                     title: 'Dana Siaga Upacara, Tak Pusing Lagi',
                     description: 'Wayan Gobler',
-                    category: 'LPD dan Solusi',
+                    category: 'Kokaku dan Solusi',
                     image: 'https://2.bp.blogspot.com/-8cxvm1AbdfY/WRH0mBc6jBI/AAAAAAAABzc/qZ69SxAszD8byyaluhUiHMaNeXzPL8KNQCLcB/s1600/ngaben.jpg',
                 },
                 {
@@ -176,15 +176,15 @@ class Home extends Component {
                     date: '2018-03-12',
                     title: 'Menjaga Tradisi & Memajukan Ekonomi',
                     description: 'Wayan Gobler',
-                    category: 'LPD dan Solusi',
+                    category: 'Kokaku dan Solusi',
                     image: 'http://www.harnas.co/files/images/760420/2015/02/06/kerajinan-bali.jpg',
                 },
                 {
                     id: 5,
                     date: '2018-03-12',
-                    title: 'Sosialisasi LPD',
+                    title: 'Sosialisasi Kokaku',
                     description: 'Wayan Gobler',
-                    category: 'LPD dan Solusi',
+                    category: 'Kokaku dan Solusi',
                     image: 'http://www.baliprov.go.id/files/gambar%20humas/3-pilar.jpg',
                 },
             ],
@@ -212,7 +212,7 @@ class Home extends Component {
     }
     _login() {
         this.props.navigator.resetTo({
-            screen: 'kliklpd.Home',
+            screen: 'kokaku.Home',
         });
     }
     _gotoRiwayat() {
@@ -220,7 +220,7 @@ class Home extends Component {
             this.props.navigator.handleDeepLink({ link: 'Riwayat' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Riwayat',
+                screen: 'kokaku.Riwayat',
             });
         }
     }
@@ -254,7 +254,7 @@ class Home extends Component {
                         </UniText.Semibold>
                     </View>
                     <UniText.Light size={ms(12)} color="#fff">
-                        LPD dan Solusi
+                        Kokaku dan Solusi
                     </UniText.Light>
                 </View>
             </LinearGradient>
@@ -299,7 +299,7 @@ class Home extends Component {
 
 
 
-                <View style={{ height: ms(300) }}>
+                <View style={{ height: ms(300), marginTop: Platform.OS === 'ios' ? ms(20) : ms(0) }}>
                     <LinearGradient
                         colors={colors.RED_GRADIENT}
                         style={{ height: ms(300) }}
@@ -1068,7 +1068,7 @@ class Home extends Component {
                                     Kabar Terakhir
                                 </UniText.Medium>
                                 <UniText.Light size={ms(13)} color="#666">
-                                    Kabar dan Informasi terbaru tentang LPD dan Bali.
+                                    Kabar dan Informasi terbaru tentang Kokaku dan Bali.
                                 </UniText.Light>
                             </View>
 

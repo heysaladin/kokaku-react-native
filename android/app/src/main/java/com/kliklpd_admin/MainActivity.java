@@ -1,4 +1,4 @@
-package com.kliklpd_admin;
+package com.kokaku;
 
 import com.reactnativenavigation.controllers.SplashActivity;
 import com.imagepicker.permissions.OnImagePickerPermissionsCallback;

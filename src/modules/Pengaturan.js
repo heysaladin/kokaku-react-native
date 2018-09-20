@@ -65,7 +65,7 @@ class Pengaturan extends Component {
             this.props.navigator.handleDeepLink({ link: 'Pemberitahuan' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Pemberitahuan',
+                screen: 'kokaku.Pemberitahuan',
             });
         }
 

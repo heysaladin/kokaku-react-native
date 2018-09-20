@@ -20,22 +20,23 @@ const CardSimpanan = (props) => {
             <View style={[s.flx_row, s.aic, s.jcc, { height: ms(40) }]}>
                 <View style={{ width: ms(6), height: ms(6), borderRadius: ms(3), marginRight: ms(8), backgroundColor: '#667eea' }}/>
                 <UniText.Semibold size={ms(13)} color={colors.PURPLE}>
-                    SIMPANAN
+                    SESRAWUNGAN
                 </UniText.Semibold>
                 <View style={{ width: ms(6), height: ms(6), borderRadius: ms(3), marginLeft: ms(8), backgroundColor: '#667eea' }}/>
             </View>
             <View style={[s.flx_i, s.aic, s.jcc, { marginBottom: ms(12) }]}>
                 <Text style={{ backgroundColor: 'transparent' }}>
-                    <UniText.Regular>Rp </UniText.Regular>
-                    <UniText.Bold size={ms(24)}>
-                        100.000.000.000
+                    {/* <UniText.Regular>- </UniText.Regular> */}
+                    <UniText.Bold size={ms(24)} style={{ paddingHorizontal: ms(50) }}>
+                        Alhamdulillah, Des Pundi Kabaripun?
                     </UniText.Bold>
+                    {/* <UniText.Regular> -</UniText.Regular> */}
                 </Text>
             </View>
             <View style={[s.bg_white, { paddingHorizontal: ms(20), paddingVertical: ms(12), borderBottomLeftRadius: ms(5), borderBottomRightRadius: ms(5) }]}>
                 <View style={{ marginBottom: ms(4) }}>
                     <UniText.Semibold size={ms(16)}>
-                        Didien Geonk
+                        Mei Mei
                     </UniText.Semibold>
                 </View>
                 <UniText.Light size={ms(12)}>

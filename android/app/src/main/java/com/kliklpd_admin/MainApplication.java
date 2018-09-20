@@ -1,4 +1,4 @@
-package com.kliklpd_admin;
+package com.kokaku;
 
 import android.app.Application;
 

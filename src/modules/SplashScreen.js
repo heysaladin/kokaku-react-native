@@ -15,7 +15,7 @@ class SplashScreen extends Component {
     componentDidMount() {
         setTimeout(() => {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Walkthrough',
+                screen: 'kokaku.Walkthrough',
                 overrideBackPress: true,
             });
         }, 3000);

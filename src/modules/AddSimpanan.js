@@ -107,7 +107,7 @@ class AddSimpanan extends Component {
             this.props.navigator.handleDeepLink({ link: 'Pemberitahuan' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Pemberitahuan',
+                screen: 'kokaku.Pemberitahuan',
             });
         }
 
@@ -123,7 +123,7 @@ class AddSimpanan extends Component {
             this.props.navigator.handleDeepLink({ link: 'Simpanan' });
         } else {
             this.props.navigator.resetTo({
-                screen: 'kliklpd.Simpanan',
+                screen: 'kokaku.Simpanan',
             });
         }
     }

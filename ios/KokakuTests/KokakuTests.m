@@ -16,11 +16,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface KlikLPD_AdminTests : XCTestCase
+@interface KokakuTests : XCTestCase
 
 @end
 
-@implementation KlikLPD_AdminTests
+@implementation KokakuTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
